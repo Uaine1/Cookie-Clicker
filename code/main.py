@@ -13,18 +13,7 @@ class Game():
         # Draw Cookie Sprite
         self.all_sprite = pygame.sprite.Group()
         self.cookie_sprite = Cookie(self.all_sprite)
-        
-        self.can_bite = True
-        self.bite_time = 0
-        self.bite_cd = 100
-        
-        
-    # Get Input    
-    """def input(self):
-        if pygame.mouse.get_pressed()[0] and self.can_bite:
-            # show the next stage of cookie
-        pass"""      
-        
+         
         
     def run(self):
         while self.running:
